@@ -41,31 +41,31 @@ class TestInputOutput(unittest.TestCase):
         testcase = "2.345\n"
         testans = "The number 2.345 has 4 significant figures.\n"
         userans = invoke_main(testcase)
-        self.test_result(userans, testans)        
+        self.check_result(userans, testans)        
 
     def test_part_2(self):
         testcase = "02.345\n"
         testans = "The number 02.345 has 4 significant figures.\n"
         userans = invoke_main(testcase)
-        self.test_result(userans, testans)        
+        self.check_result(userans, testans)        
 
     def test_part_3(self):
         testcase = "0.0023\n"
         testans = "The number 0.0023 has 2 significant figures.\n"
         userans = invoke_main(testcase)
-        self.test_result(userans, testans)        
+        self.check_result(userans, testans)        
 
     def test_part_4(self):
         testcase = "2.3400\n"
         testans = "The number 2.3400 has 5 significant figures.\n"
         userans = invoke_main(testcase)
-        self.test_result(userans, testans)        
+        self.check_result(userans, testans)        
 
     def test_part_1(self):
         testcase = "0.002300\n"
         testans = "The number 0.002300 has 4 significant figures.\n"
         userans = invoke_main(testcase)
-        self.test_result(userans, testans)        
+        self.check_result(userans, testans)        
 
 
 if __name__ == '__main__':
