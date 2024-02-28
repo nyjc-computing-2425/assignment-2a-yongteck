@@ -31,7 +31,7 @@ class TestSF(autograding.TestInputOutput):
             InOut(input="02.345", output="The number 02.345 has 4 significant figures."),
             InOut(input="0.0023", output="The number 0.0023 has 2 significant figures."),
             InOut(input="2.3400", output="The number 2.3400 has 5 significant figures."),
-            InOut(input="0.002300", output="The number 2.345 has 4 significant figures."),
+            InOut(input="0.002300", output="The number 0.002300 has 4 significant figures."),
         ]
 
 
